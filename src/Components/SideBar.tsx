@@ -63,14 +63,6 @@ const Sidebar: React.FC<{ onClose: () => void }> = () => {
               Mentors
             </div>
           </Link>
-          <Link to={"/ideas"}>
-            <div onClick={()=>settoggle(!toggle)} className="py-2 px-4 text-primary-dark hover:bg-slate-100 border-l-4 border-primary-dark flex align-middle gap-2">
-              <i className="fa fa-code mr-2">
-                <FaLightbulb className="h-6 w-6 text-gray-700 stroke-1" />
-              </i>
-              Ideas
-            </div>
-          </Link>
           <Link to={"/projects"}>
             <div onClick={()=>settoggle(!toggle)} className="py-2 px-4 text-primary-dark hover:bg-slate-100 border-l-4 border-primary-dark flex align-middle gap-2">
               <i className="fa fa-code mr-2">
