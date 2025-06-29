@@ -8,7 +8,6 @@ import { FaHome } from "react-icons/fa";
 import { IoMdHelpCircle } from "react-icons/io";
 import { IoPeopleSharp, IoCodeSlash } from "react-icons/io5";
 import { FaTachometerAlt } from "react-icons/fa";
-import { FaLightbulb } from "react-icons/fa";
 import { userstate } from "../store/userState";
 const Sidebar: React.FC<{ onClose: () => void }> = () => {
     const user = useRecoilValue(userstate)
